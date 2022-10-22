@@ -7,8 +7,9 @@ return require('packer').startup(function()
 	-- Автообновление Packer
 	use 'wbthomason/packer.nvim'
 
-	-- Тема gruvbox-material
+	-- Темы
 	use 'sainnhe/gruvbox-material'
+	use 'arcticicestudio/nord-vim'
 
 	-- Авто-закрытие кавычек итд
 	use {

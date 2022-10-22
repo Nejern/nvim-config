@@ -6,7 +6,7 @@ local g = vim.g
 
 --[[ Цветовая схема ]]--
 
-vim.cmd [[colorscheme gruvbox-material]]
+vim.cmd [[colorscheme nord]]
 
 -- Отключение -- INSERT -- итд
 opt.showmode = false
