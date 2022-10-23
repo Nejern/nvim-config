@@ -1,13 +1,17 @@
--- Плагины
-require('plugins/packer_install')
+--[[ Плагины ]]--
 
--- Настройки
-require('base/other')
+require('plugins.packer_install')
+
+--[[ Настройки ]]--
+
+require('base.other')
 -- Оформление
-require('base/theme')
+require('base.appearance')
+require('base.theme')
 -- Поиск
-require('base/search')
+require('base.search')
 -- Табы
-require('base/tabs')
+require('base.tabs')
+
 -- Хоткеи
-require('keys/main')
+require('keys.main')
