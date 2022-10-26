@@ -12,6 +12,8 @@ require('base.theme')
 require('base.search')
 -- Табы
 require('base.tabs')
+-- Файлы
+require('base.filetype')
 
 -- Хоткеи
 require('keys.main')
