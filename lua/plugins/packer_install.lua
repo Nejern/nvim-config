@@ -10,6 +10,7 @@ return require('packer').startup(function()
 	-- Темы
 	use 'sainnhe/gruvbox-material'
 	use 'arcticicestudio/nord-vim'
+	use 'rebelot/kanagawa.nvim'
 
 	-- Авто-закрытие кавычек итд
 	use {
@@ -49,7 +50,7 @@ return require('packer').startup(function()
 	}
 
 	-- Статуслайн
-	use{
+	use {
 		'nvim-lualine/lualine.nvim',
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true },
 		config = function()
