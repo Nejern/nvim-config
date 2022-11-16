@@ -22,8 +22,8 @@ return require('packer').startup(function()
 
 	-- LSP сервер
 	use {
-		'williamboman/mason.nvim',
-		requires = {'neovim/nvim-lspconfig', 'williamboman/mason-lspconfig.nvim', 'j-hui/fidget.nvim'},
+		'neovim/nvim-lspconfig',
+		requires = {'williamboman/mason.nvim', 'williamboman/mason-lspconfig.nvim', 'j-hui/fidget.nvim'},
 		config = function()
 			require("mason").setup()
 			require("mason-lspconfig").setup()
