@@ -1,38 +1,7 @@
---[[ Переменные ]]--
-
+--[[ Variables ]]--
 local opt = vim.opt
-local g = vim.g
 
-
---[[ Оформление ]]--
-
--- Отключение -- INSERT -- итд
-opt.showmode = false
-
--- Показывать номера строк
-opt.number = true
-
-
---[[ Курсор ]]--
-
--- Подсвечивать строку с курсором
-opt.cursorline = true
-
-
---[[ Окна ]]--
-
--- Не делать все окна одинакового размера
-opt.equalalways = false
-
--- Высота окон по-умолчанию 20 строк
-opt.winheight = 20
-
-
---[[ Панели ]]--
-
--- Вертикальные панели становятся справа
--- По умолчанию панели в Neovim ставятся в зависимости от расположения текущей панели. Данная настройка поможет нам держать панели в порядке
-opt.splitright = true
-
--- Горизонтальные сплиты становятся снизу
-opt.splitbelow = true
+--[[ Appearance ]]--
+opt.showmode = false 		-- No show mode
+opt.number = true 		-- Show line numbers
+opt.signcolumn = "number" 	-- Always show sign column

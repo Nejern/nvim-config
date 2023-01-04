@@ -1,26 +1,20 @@
---[[ Переменные ]]--
-
+--[[ Variables ]]--
 local map = vim.api.nvim_set_keymap
 
-
---[[ Функции ]]--
-
--- Горячие клавиши в normal mode
+--[[ Functions ]]--
+-- Normal mode
 function nm(key, command)
-	map('n', key, command, {noremap = true})
+  map('n', key, command, {noremap = true, silent = true})
 end
-
--- Горячие клавиши в insert mode
+-- Insert mode
 function im(key, command)
-	map('i', key, command, {noremap = true})
+  map('i', key, command, {noremap = true, silent = true})
 end
-
--- Горячие клавиши в visual mode
+-- Visual mode
 function vm(key, command)
-	map('v', key, command, {noremap = true})
+  map('v', key, command, {noremap = true, silent = true})
 end
-
--- Горячие клавиши в terminal mode
+-- Terminal mode
 function tm(key, command)
-	map('t', key, command, {noremap = true})
+  map('t', key, command, {noremap = true, silent = true})
 end

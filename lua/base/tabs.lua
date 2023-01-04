@@ -1,21 +1,9 @@
---[[ Переменные ]]--
-
+--[[ Variables ]]--
 local opt = vim.opt
 
-
---[[ Табы ]]--
-
--- Отступы пробелами, а не табуляциями
-opt.expandtab = true
-
--- Ширина табуляции в колонках
-opt.tabstop = 2
-
--- Количество пробелов (колонок) одного отступа
-opt.shiftwidth = 2
-
--- Новая строка будет с тем же отступом, что и предыдущая
-opt.autoindent = true
-
--- Подстраивать новые строки под предыдущий отступ
-opt.smartindent = true
+--[[ Tabs ]]--
+opt.expandtab = true	-- Use spaces instead of tabs
+opt.tabstop = 2		-- Number of spaces tabs count for
+opt.shiftwidth = 2	-- Number of spaces to use for autoindent
+opt.autoindent = true	-- Copy indent from current line when starting a new line
+opt.smartindent = true	-- Insert indents automatically

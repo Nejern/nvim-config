@@ -1,15 +1,7 @@
---[[ Переменные ]]--
-
+--[[ Variables ]]--
 local opt = vim.opt
 
-
---[[ Поиск ]]--
-
--- Игнорирование регистра
-opt.ignorecase = true
-
--- Не игнорировать регистр, когда есть символы в верхнем регистре
-opt.smartcase = true
-
--- Подсвечивать найденные текстовые объекты
-opt.showmatch = true
+--[[ Search ]]--
+opt.ignorecase = true	-- Ignore case
+opt.smartcase = true	-- Smart case
+opt.showmatch = true	-- Show matching brackets when text indicator is over them
